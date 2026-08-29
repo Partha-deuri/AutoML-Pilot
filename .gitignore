@@ -11,9 +11,11 @@ __pycache__/
 .pytest_cache/
 
 # MLflow tracking and outputs
+outputs/
+mlruns.db
+shap_plots/
 outputs/mlruns/
 outputs/model_cards/
-
 # OS generated files
 .DS_Store
 Thumbs.db

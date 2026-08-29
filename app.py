@@ -16,7 +16,7 @@ load_dotenv()
 
 st.set_page_config(page_title="AutoML-Pilot", page_icon="🚀", layout="wide")
 
-st.title("🚀 AutoML-Pilot")
+st.title("AutoML-Pilot")
 st.subheader("Navigating your machine learning pipelines autonomously.")
 
 st.markdown("""
