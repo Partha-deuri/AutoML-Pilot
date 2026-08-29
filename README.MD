@@ -2,7 +2,7 @@
 
 *Navigating your machine learning pipelines autonomously.*
 
-🌍 **Live Demo:** [https://automlpilot-parth.streamlit.app](https://automlpilot-parth.streamlit.app)
+**Live Demo:** [https://automlpilot-parth.streamlit.app](https://automlpilot-parth.streamlit.app)
 
 **AutoML-Pilot** is an autonomous, LangGraph-based agent designed to ingest raw tabular datasets, reason about their statistical properties, and autonomously produce a cleaned dataset, trained models, and a comprehensive written model card.
 
