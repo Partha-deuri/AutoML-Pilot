@@ -7,8 +7,8 @@ xgboost
 mlflow
 streamlit
 python-dotenv
-protobuf<5.0.0
-setuptools<70.0.0
+protobuf
+setuptools
 shap
 matplotlib
 sqlalchemy
