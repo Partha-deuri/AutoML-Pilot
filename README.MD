@@ -109,8 +109,7 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory and add your LLM API keys (e.g., Anthropic or OpenAI, depending on your LangChain configuration).
 
 ```env
-ANTHROPIC_API_KEY=your_api_key_here
-# OPENAI_API_KEY=your_api_key_here
+GOOGLE_API_KEY=your_api_key_here
 
 ```
 
