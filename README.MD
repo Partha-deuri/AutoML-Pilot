@@ -1,4 +1,4 @@
-# 🚀 ML Pipeline Agent: AutoML-Pilot
+#  ML Pipeline Agent: AutoML-Pilot
 
 *Navigating your machine learning pipelines autonomously.*
 
@@ -8,7 +8,7 @@ Instead of relying on LLMs to write fragile, free-form Python scripts, this syst
 
 ---
 
-## ✨ Key Capabilities
+## Key Capabilities
 
 * **Deterministic Data Profiling:** Computes exact statistical summaries (missing values, cardinality, distributions) without relying on LLM hallucinations.
 * **Autonomous Cleaning & Feature Engineering:** Generates strict JSON plans to handle imputation, outliers, and categorical encoding based on the data profile.
@@ -18,7 +18,7 @@ Instead of relying on LLMs to write fragile, free-form Python scripts, this syst
 
 ---
 
-## 🧠 Pipeline Architecture (The State Machine)
+## Pipeline Architecture (The State Machine)
 
 The agent operates as a LangGraph state machine, passing a shared `PipelineState` object through the following nodes:
 
@@ -32,7 +32,7 @@ The agent operates as a LangGraph state machine, passing a shared `PipelineState
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ml-pipeline-agent/
@@ -74,7 +74,7 @@ ml-pipeline-agent/
 
 ---
 
-## 🌟 App Features
+## App Features
 
 The interactive Streamlit app (`app.py`) provides a rich interface with the following features:
 
@@ -86,7 +86,7 @@ The interactive Streamlit app (`app.py`) provides a rich interface with the foll
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 **1. Clone the repository and navigate to the project directory:**
 
@@ -115,7 +115,7 @@ GOOGLE_API_KEY=your_api_key_here
 
 ---
 
-## 🎮 Usage
+## Usage
 
 ### Option 1: Interactive Streamlit UI
 
@@ -135,18 +135,9 @@ python evaluation/run_benchmark.py
 
 ```
 
-### Option 3: View MLflow Tracking
-
-To view the experiment parameters, metrics, and logged agent artifacts (JSON plans and model cards), launch the MLflow UI:
-
-```bash
-mlflow ui --backend-store-uri sqlite:///outputs/mlruns.db
-
-```
-
 ---
 
-## 🧪 The Generalization Proof
+## The Generalization Proof
 
 The true test of this agent is its ability to adapt without hardcoded rules. The `evaluation/run_benchmark.py` script validates performance across:
 
