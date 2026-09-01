@@ -93,8 +93,7 @@ The interactive Streamlit app (`app.py`) provides a rich interface with the foll
 **1. Clone the repository and navigate to the project directory:**
 
 ```bash
-git clone https://github.com/yourusername/ml-pipeline-agent.git
-cd ml-pipeline-agent
+git clone https://github.com/parthdeuri/AutoML-Pilot.git
 
 ```
 
@@ -149,3 +148,9 @@ The true test of this agent is its ability to adapt without hardcoded rules. The
 * **Wine Quality:** Triggers multi-class classification handling.
 
 All handled by the exact same state machine, proving genuine zero-shot pipeline automation.
+
+---
+
+## Developer
+
+* **Partha Deuri** - [GitHub Profile](https://github.com/parthdeuri)
